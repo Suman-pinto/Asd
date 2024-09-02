@@ -12,7 +12,7 @@ router.post('/cars', async (req, res) => {
     res.status(400).send(error);
   }
 });
-
+// new
 // Get all cars
 router.get('/cars', async (req, res) => {
   try {
